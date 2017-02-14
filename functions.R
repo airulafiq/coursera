@@ -13,6 +13,7 @@ columnmean <- function(y,removeNA = TRUE){
   for (i in 1:nc){
     means[i]<-mean(y[,i],na.rm=removeNA)
     ##means<-y[,i],na.rm =removeNA
+    ##testing github public key
   }
   means
 }
